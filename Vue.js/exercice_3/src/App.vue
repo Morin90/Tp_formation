@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      // Ajout d'une variable showUserNavF pour la méthode Connect plus bas
+      /*Ajout d'une variable showUserNavF pour la méthode Connect plus bas*/
       showUserNavF : false,
       userNavItemsArray : [
         {
@@ -180,8 +180,9 @@ export default {
     </section>
 
     <!-- Injection dans le slot footer -->
-    <!-- <template #footer></template> -->
-    
+    <template #footer>
+      
+    </template>
   </main-layout>
 </template>
 
